@@ -1,0 +1,36 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="80px"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.AppCompatButton
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="MY PROFILE"
+    android:background="#090909"
+    android:layout_margin="40px"
+    android:textColor="#FFFFFF"
+    android:id="@+id/prof"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MY PLAYLISTS"
+        android:background="#090909"
+        android:layout_margin="40px"
+        android:textColor="#FFFFFF"
+        android:id="@+id/play"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LIKED VIDEOS"
+        android:background="#090909"
+        android:layout_margin="40px"
+        android:textColor="#FFFFFF"
+        android:id="@+id/like"/>
+
+
+
+</LinearLayout>
